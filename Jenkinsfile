@@ -46,7 +46,7 @@ pipeline {
     
     post {
         always {
-            // Archive the artifacts or perform any cleanup
+            // Archive the artifacts or perform any cleanup txt
             archiveArtifacts artifacts: '**/*.class, **/*.jar', allowEmptyArchive: true
         }
     }
